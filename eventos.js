@@ -3,7 +3,6 @@ boton.addEventListener("click", function() {
     alert("Hola! Soy el div!");
 });
 
-const btn = document.querySelector("btn");
-btn.removeEventListener("click", function() {
+button#boton.removeEventListener("click", function() {
     alert("Hola! Soy el div!");
 });
